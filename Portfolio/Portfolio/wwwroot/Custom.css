@@ -3,3 +3,36 @@
     font-family: 'Pacifico', cursive;
 }
 
+.content{
+    margin: auto;
+}
+
+.footer-content{
+    margin: auto;
+    margin-top: 100px;
+}
+.footer{
+    height:225px;
+    background-color: #808080;
+}
+.icon{
+   font-size: 70px;
+}
+.icon-social {
+    font-size: 70px;
+    margin-top: 20px;
+}
+.content2 {
+    margin: auto;
+    text-align:center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.social-link {
+    text-decoration: none;
+}
+.copyright{
+    text-align: center;
+    margin: auto;
+}
