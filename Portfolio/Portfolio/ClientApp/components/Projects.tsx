@@ -12,7 +12,7 @@ export class Projects extends React.Component<RouteComponentProps<{}>, {}> {
                         <div className='card'>
                             <img className='card-img-top' src='http://via.placeholder.com/350x200' alt='Projects alt caption' />
                             <div className='card-block'>
-                                <p className='card-text'>Ptoject caption</p>
+                                <p className='card-text ml-2'>Project caption</p>
                             </div>
                         </div>
                     </div>
@@ -21,7 +21,7 @@ export class Projects extends React.Component<RouteComponentProps<{}>, {}> {
                         <div className='card'>
                             <img className='card-img-top' src='http://via.placeholder.com/350x200' alt='Projects alt caption' />
                             <div className='card-block'>
-                                <p className='card-text'>Ptoject caption</p>
+                                <p className='card-text ml-2'>Project caption</p>
                             </div>
                         </div>
                     </div>
@@ -30,7 +30,7 @@ export class Projects extends React.Component<RouteComponentProps<{}>, {}> {
                         <div className='card'>
                             <img className='card-img-top' src='http://via.placeholder.com/350x200' alt='Projects alt caption' />
                             <div className='card-block'>
-                                <p className='card-text'>Ptoject caption</p>
+                                <p className='card-text ml-2'>Project caption</p>
                             </div>
                         </div>
                     </div>
@@ -39,7 +39,7 @@ export class Projects extends React.Component<RouteComponentProps<{}>, {}> {
                         <div className='card'>
                             <img className='card-img-top' src='http://via.placeholder.com/350x200' alt='Projects alt caption' />
                             <div className='card-block'>
-                                <p className='card-text'>Ptoject caption</p>
+                                <p className='card-text ml-2'>Project caption</p>
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ export class Projects extends React.Component<RouteComponentProps<{}>, {}> {
                         <div className='card'>
                             <img className='card-img-top' src='http://via.placeholder.com/350x200' alt='Projects alt caption' />
                             <div className='card-block'>
-                                <p className='card-text'>Ptoject caption</p>
+                                <p className='card-text ml-2'>Project caption</p>
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ export class Projects extends React.Component<RouteComponentProps<{}>, {}> {
                         <div className='card'>
                             <img className='card-img-top' src='http://via.placeholder.com/350x200' alt='Projects alt caption' />
                             <div className='card-block'>
-                                <p className='card-text'>Ptoject caption</p>
+                                <p className='card-text ml-2'>Project caption</p>
                             </div>
                         </div>
                     </div>
