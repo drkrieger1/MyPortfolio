@@ -1,4 +1,4 @@
-# MyPortfolio
+# My Portfolio
 Development Portfolio, this application is still in development.
 
 Technologies
