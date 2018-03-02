@@ -14,12 +14,13 @@ export class Home extends React.Component<RouteComponentProps<{}>, {}> {
                     <div className='row'>
                     <div className='col-sm-12 col-md-12 col-lg-6 content'>
                         <h1>About</h1>
-                        <p>Hello and welcome to my portfolio. My Name is Erik Plyushko and I am
-                            the coding ninja your company has been looking for. My development strack
-                            is Javascript and C# and I can learn any technology that you may need to strengthen
-                            your development team. I served six years in the Washington National Guard as a Bradley
-                            Technician and to this day live by the Army values. I enjoy researching new technologies and Space.
-                            Feel free to contact me with any project ideas.
+                        <p>Hello and welcome to my portfolio. My name is Erik Plyushko and
+                            I am the coding ninja your company has been looking for. My development
+                            stack is Javascript and C# and I am willing and eager to learn any technology
+                            that you may need to strengthen your development team. I served six years in
+                            the Washington National Guard as a Bradley Technician and to this day live by the
+                            Army values. I enjoy researching new technologies and space exploration. Feel free
+                            to contact me with any project ideas. 
                         </p>
                         <hr />
                         <h1>Technologies</h1>                                        
