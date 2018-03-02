@@ -43,3 +43,6 @@
 .top-buffer{
     margin-top: 10px;
 }
+.project-overlay {
+    background-color: wheat;
+}
