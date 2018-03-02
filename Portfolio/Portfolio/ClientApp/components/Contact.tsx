@@ -24,6 +24,12 @@ export class Contact extends React.Component<RouteComponentProps<{}>, {}> {
                                 <label>Email</label>
                                 <input className='form-control' type='email'></input>
                             </div>
+
+                            <div className='form-group'>
+                                <label>Message:</label>
+                                <textarea className='form-control' value='What are we working on?'></textarea>
+                            </div>
+                            <button type='submit' className='btn btn-primary'>Submit</button>
                         </form>
                     </div>
                 </div>
