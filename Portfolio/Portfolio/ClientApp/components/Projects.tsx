@@ -45,9 +45,9 @@ export class Projects extends React.Component<RouteComponentProps<{}>, {}> {
                         <div className='card'>
                             <img className='card-img-top' src={('/img/Auto.jpg')} alt='Image of Auto Inspector' />
                             <div className='card-img-overlay project-overlay'>
-                                <h1 className='card-title ml-2'>Offshore</h1>
-                                <p className='card-text'>A universal ID card application for commercial fishermen.</p>
-                                <a className='btn  btn-primary ' href='https://github.com/drkrieger1/fisher-registration'>Git Repo</a>
+                                <h1 className='card-title ml-2'>Auto Inspector</h1>
+                                <p className='card-text'>This application allows automotive shops to perform quick vehicle inspections.</p>
+                                <a className='btn  btn-primary ' href='https://github.com/drkrieger1/AutoInspectorsApp'>Git Repo</a>
                             </div>
                         </div>
                     </div>
@@ -56,9 +56,9 @@ export class Projects extends React.Component<RouteComponentProps<{}>, {}> {
                         <div className='card'>
                             <img className='card-img-top' src={('/img/Gross.jpg')} alt='Image of Is It Gross' />
                             <div className='card-img-overlay project-overlay'>
-                                <h1 className='card-title ml-2'>Offshore</h1>
-                                <p className='card-text'>A universal ID card application for commercial fishermen.</p>
-                                <a className='btn  btn-primary ' href='https://github.com/drkrieger1/fisher-registration'>Git Repo</a>
+                                <h1 className='card-title ml-2'>Is It Gross</h1>
+                                <p className='card-text'>An application that uses King county's API to show local health inspection results in Seattle.</p>
+                                <a className='btn  btn-primary ' href='https://github.com/MattStClair/restaurantRiskRating'>Git Repo</a>
                             </div>
                         </div>
                     </div>
@@ -67,9 +67,9 @@ export class Projects extends React.Component<RouteComponentProps<{}>, {}> {
                         <div className='card'>
                             <img className='card-img-top' src={('/img/DuckTimer.jpg')} alt='Image of Duck Timer' />
                             <div className='card-img-overlay project-overlay'>
-                                <h1 className='card-title ml-2'>Offshore</h1>
-                                <p className='card-text'>A universal ID card application for commercial fishermen.</p>
-                                <a className='btn  btn-primary ' href='https://github.com/drkrieger1/fisher-registration'>Git Repo</a>
+                                <h1 className='card-title ml-2'>Duck Timer</h1>
+                                <p className='card-text'>An application intended to help programmers to stick to the 15 minute rule when stuck on a problem.</p>
+                                <a className='btn  btn-primary ' href='https://github.com/drkrieger1/Duck-Timer'>Git Repo</a>
                             </div>
                         </div>
                     </div>
