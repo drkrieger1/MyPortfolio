@@ -8,15 +8,20 @@ export interface LayoutProps {
 
 export class Layout extends React.Component<LayoutProps, {}> {
     public render() {
-        return<div>
-            <NavMenu />
-           
+        return<div className='projectr-container'>
+            <div className='header'>
+                <NavMenu />
+            </div>
+            <div className='body'>
                 <div className='row'>
                     <div className='col-sm-12 col-md-12 col-lg-12'>
                         {this.props.children}
                     </div>
                 </div>
-            <Footer />
+            </div>
+            <div className='footer'>
+                <Footer />
+            </div>           
         </div>
     }
 }
