@@ -6,28 +6,12 @@
     <title>@ViewData["Title"] - Portfolio</title>
     <base href="~/" />
 
-    @*<link rel="stylesheet" href="~/dist/vendor.css" asp-append-version="true" />
-    <environment exclude="Development">
-        <link rel="stylesheet" href="~/dist/site.css" asp-append-version="true" />
-    </environment>*@
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="~/Custom.css">
-    <style>
-        .project-overlay {
-            background-color: rgba(50,50,50,0.87);
-            color: #ffffff;
-            text-align: center;
-            opacity: 0;
-            transition: .5s ease;
-        }
-        .card:hover .project-overlay{
-            opacity: 1;
-        }
-    </style>
- 
+
 </head>
 <body>
     @RenderBody()

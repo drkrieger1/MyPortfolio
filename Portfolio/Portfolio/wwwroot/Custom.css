@@ -1,4 +1,40 @@
-﻿.logo {
+﻿/*<------------------------- Layout---------------------->*/
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.project-container {
+    min-height: 100%;
+    position: relative;
+}
+
+.body {
+    padding-bottom: 10em;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10em;
+}
+
+/*<---------------------------------- Project Layover --------------------------->*/
+.project-overlay {
+    background-color: rgba(50,50,50,0.87);
+    color: #ffffff;
+    text-align: center;
+    opacity: 0;
+    transition: .5s ease;
+}
+.card:hover .project-overlay {
+    opacity: 1;
+}
+/*<--------------------------------------------------------------------------------->*/
+.logo {
     color: #ff0000;
     font-family: 'Pacifico', cursive;
 }
@@ -9,18 +45,18 @@
 
 .footer-content{
     margin: auto;
-    margin-top: 100px;
+    /*margin-top: 100px;*/
 }
 .footer{
-    height:225px;
+    /*height:225px;*/
     background-color: #808080;
 }
 .icon{
-   font-size: 70px;
+   font-size: 5em;
 }
 .icon-social {
-    font-size: 70px;
-    margin-top: 20px;
+    font-size: 2em;
+    /*margin-top: 20px;*/
 }
 .content2 {
     margin: auto;
@@ -43,6 +79,14 @@
 .top-buffer{
     margin-top: 10px;
 }
-.project-overlay {
-    background-color: wheat;
+
+/*<-------------------- Media Queries ------------------------------------>*/
+@media(max-width:991px){
+    .footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        height: 10em;
+    }
 }
+
