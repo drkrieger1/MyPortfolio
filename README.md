@@ -1,5 +1,5 @@
 # My Portfolio
-Development Portfolio, this application is still in development.
+Development Portfolio, this application is out of date.
 
 Technologies
 - Bootstrap 4
